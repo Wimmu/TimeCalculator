@@ -5,4 +5,8 @@ public class TimeCalculator {
         }
         return distance / speed;
     }
+
+    public static float kelvinToCel(float kel){
+        return (float) (kel - 273.15);
+    }
 }

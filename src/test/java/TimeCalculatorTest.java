@@ -30,5 +30,11 @@ public class TimeCalculatorTest {
             calculator.calculateTime(100, -10);
         });
     }
+
+    @Test
+    public void testKelvinToCel() {
+        TimeCalculator calculator = new TimeCalculator();
+        assertEquals(0.0, calculator.kelvinToCel(273.15F), 0.0001);
+    }
 }
 
